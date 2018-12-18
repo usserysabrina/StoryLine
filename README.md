@@ -2,7 +2,7 @@
 
 StoryLine is a simple Python API designed to facilitate the generation of quality Agile requirements, commonly referred to as user stories. The tool was originally developed by Sabrina Ussery in fulfillment of doctoral research requirements at the George Washington University. 
 
-StoryLine is based on the Quality User Story (QUS framework) developed by Lucassen et. al. 2015, which consists of 14 quality criteria that user story writers should strive to conform to. The tool takes as its input a set of draft user stories and, as its output, provides modifications to the input user stories to increase their quality. StoryLine's outputs are presented to the user in a Quality Function Deployment (QFD) based traceability report that allows the user to clearly see how each user story has evolved. Within the QFD report, the following feedback is also provided:
+StoryLine is based on the Quality User Story (QUS framework) developed by Lucassen et. al. 2015, which consists of 14 quality criteria that user story writers should strive to conform to. The tool takes as its input a set of draft user stories in a .xlsx file (see demo_input.xlsx above) and, as its output, provides modifications to the input user stories to increase their quality. StoryLine's outputs are presented to the user in a Quality Function Deployment (QFD) based traceability report that allows the user to clearly see how each user story has evolved. Within the QFD report, the following feedback is also provided:
 
 a). Spelling errors corrected in each user story,
 b). Acronyms found in each user story (for use in requirements glossary),
