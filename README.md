@@ -27,18 +27,31 @@ Java v9.0.4
 Note: to install these libraries, simply open cmd.exe, change your working directory to the same folder where you have Python and Java installed, and type "pip install" + library name. For example, for nltk, type "pip install nltk".
 
 bottle
+
 nltk
+
 openpyxl
-pandas 
+
+pandas
+
 numpy 
+
 re
+
 itertools
+
 xlutils
+
 xlrd
+
 xlwt
+
 collections 
+
 spacy
+
 autocorrect 
+
 num2words 
 
 JAVA program SimpleNLG Installation Instructions - https://github.com/simplenlg/simplenlg
