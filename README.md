@@ -20,6 +20,7 @@ The successful execution of StoryLine depends on the following:
 
 # Environments
 Python v3.5.0
+
 Java v9.0.4
 
 # Python Libraries:
@@ -54,4 +55,5 @@ If you have other questions about StoryLine, please contact Sabrina Ussery via e
 Lucassen, G., Dalpiaz, F., van der Werf, J. M. E., & Brinkkemper, S. (2015, August). Forging high-quality user stories: towards a discipline for agile requirements. In Requirements Engineering Conference (RE), 2015 IEEE 23rd International (pp. 126-135). IEEE.
 
 NLTK: https://www.nltk.org/
+
 spaCy: https://spacy.io/
