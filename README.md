@@ -12,17 +12,17 @@ e). A user role coverage matrix.
 
 To improve the quality of user stories, StoryLine depends on the linguistic processing capabilites of the Natural Language Toolkit (NLTK) and spaCy. To reconstruct user stories once their quality has been improved, StoryLine interfaces with SimpleNLG, simple Java API designed to facilitate the generation of Natural Language. Links to each of these dependencies is provided below in the Getting Started section.
 
-Current release (English)
+# Current release (English)
 The current release of StoryLine is V1.0 (API). The "official" version of StoryLine only produces texts in English. 
 
-Getting started: Dependencies
+# Getting started: Dependencies
 The successful execution of StoryLine depends on the following:
 
-Environments
+# Environments
 Python v3.5.0
 Java v9.0.4
 
-Python Libraries:
+# Python Libraries:
 Note: to install these libraries, simply open cmd.exe, change your working directory to the same folder where you have Python and Java installed, and type "pip install" + library name. For example, for nltk, type "pip install nltk".
 
 bottle
@@ -50,8 +50,8 @@ If you wish to cite StoryLine in an academic publication, please cite the follow
 
 If you have other questions about StoryLine, please contact Sabrina Ussery via email: usserysabrina@gmail.com.
 
-Reference (QUS): Lucassen, G., Dalpiaz, F., van der Werf, J. M. E., & Brinkkemper, S. (2015, August). Forging high-quality user stories: towards a discipline for agile requirements. In Requirements Engineering Conference (RE), 2015 IEEE 23rd International (pp. 126-135). IEEE.
+# References
+Lucassen, G., Dalpiaz, F., van der Werf, J. M. E., & Brinkkemper, S. (2015, August). Forging high-quality user stories: towards a discipline for agile requirements. In Requirements Engineering Conference (RE), 2015 IEEE 23rd International (pp. 126-135). IEEE.
 
-Reference(NLTK): https://www.nltk.org/
-
-Reference(spaCy): https://spacy.io/
+NLTK: https://www.nltk.org/
+spaCy: https://spacy.io/
