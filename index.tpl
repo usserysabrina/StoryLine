@@ -28,8 +28,12 @@ d). A user story duplication matrix, and<br>
 e). A user role coverage matrix.<br><br>
 
 To use the tool, please start by uploading a single column, Excel .xlsx file containing your draft user stories. A template has been provided below for your reference.
-If you desire, you may also provide lower bounds value for the tool to use when reporting user story ambiguity and conceptual density.
-If no value is provided, the default value of 75% will be used for both metrics.<br><br>
+If you desire, you may also provide lower bounds value for the tool to use when reporting user story ambiguity, conceptual density, and duplication.
+If no value is provided, the following default values will be used:
+<li>Ambiguity - .75 (75%)</li><br>
+<li>Conceptual Density - .75 (75%)</li><br>
+<li>Duplication - .90 (90%)</li><br>
+<br><br>
 
 Upon finishing, the results of StoryLine's processing will be provided as an automatic download for your use.<br><br>
 
@@ -37,20 +41,21 @@ Thanks for visiting! And happy writing!
 </p><br>
 <b><p> Inputs</p></b>
 
-<form action="/upload" method="post" enctype="multipart/form-data">
+<form action="/StoryLine" method="post" enctype="multipart/form-data">
     Select a file: <input type="file" name="upload" /><br><br>
     Ambiguity Threshold (values 0.00 - 1.00): <input type="text" name="athreshold"><br><br>
     Conceptual Density Threshold (values 0.00 - 1.00): <input type="text" name="qthreshold"><br><br>
-  <input type="Submit" value="Run StoryLine" />
-
+    Duplication Threshold (values 0.00 - 1.00): <input type="text" name="dthreshold"><br><br>
+    <input type="Submit" value="Run StoryLine" />
 </form><br><br>
 
 <b><p> Helpful Resources</p></b>
-<p><a href="https://github.com/usserysabrina/StoryLine/blob/master/demo_input.xlsx">Input Template</a></p>
-<p><u> StoryLine Publications: of StoryLine</u></p>
+<p><a href="https://github.com/usserysabrina/StoryLine/blob/master/demo_input.xlsx">StoryLine Input Template</a></p>
+<p><a href="https://github.com/usserysabrina/StoryLine">StoryLine GitHub page</a></p>
+
+<p><u> Publications for StoryLine  </u></p>
 <p>PLACEHOLDER 1</p>
 <p>PLACEHOLDER 2</p>
-<p><a href="https://github.com/usserysabrina/StoryLine">StoryLine GitHub page</a></p>
 
 <p><a href="https://link.springer.com/article/10.1007/s00766-016-0250-x">QUS Framework (full reference below)</a></p>
 <p><i>Lucassen, G., Dalpiaz, F., van der Werf, J. M. E., & Brinkkemper, S. (2016). Improving agile requirements: the quality user story framework and tool. Requirements Engineering, 21(3), 383-403.</i></p>
