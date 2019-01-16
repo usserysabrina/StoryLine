@@ -4,6 +4,7 @@ import openpyxl
 from openpyxl import Workbook
 from openpyxl.compat import range
 from openpyxl.utils import get_column_letter
+import xlsxwriter
 
 #for dataframe operations
 import pandas as pd
@@ -24,24 +25,16 @@ nlp = spacy.load('en')
 from itertools import chain
 from itertools import combinations
 
-print("********************************************************************************")
-print("Welcome to RoboReq! \n\nYour pairwise semantic similarity is being calculated now.")
-print("********************************************************************************")
-#for run time metrics
-import time
-from datetime import timedelta
-
-start_time = time.time()
 
 simpleNLG_outputs = 'SimpleNLG_Outputs.xls'
 df_simpleNLG_outputs= pd.read_excel(simpleNLG_outputs, encoding = 'utf-8')
-df_simpleNLG_outputs['Generated US']  = df_simpleNLG_outputs['Generated US'] .str.replace(u"\u2018", "'").replace(u"\u2019", "'").replace(u"\u201c", '"').replace(u'\u201d', '"')
+df_simpleNLG_outputs['StoryLine Revised US']  = df_simpleNLG_outputs['StoryLine Revised US'] .str.replace(u"\u2018", "'").replace(u"\u2019", "'").replace(u"\u201c", '"').replace(u'\u201d', '"')
 
 #---------------------------------SemSim- Pairwise between Outputs---------------------------#
 df_simpleNLG_outputs_copy = pd.DataFrame()
-df_simpleNLG_outputs_copy['Generated US'] = df_simpleNLG_outputs['Generated US'].copy()
+df_simpleNLG_outputs_copy['StoryLine Revised US'] = df_simpleNLG_outputs['StoryLine Revised US'].copy()
 
-docs_simpleNlG_outputs_copy = df_simpleNLG_outputs_copy['Generated US'].tolist()
+docs_simpleNlG_outputs_copy = df_simpleNLG_outputs_copy['StoryLine Revised US'].tolist()
 doc_outputs_copy = nlp.pipe(docs_simpleNlG_outputs_copy)
 
 comb=combinations(docs_simpleNlG_outputs_copy, 2)
@@ -65,8 +58,8 @@ for index, row in df_pairwise_semsim.iterrows():
 
 df_pairwise_semsim['Pairwise SemSim Score'] = pairwise_score
 
-# ############################### outputs + QFD to Excel#########################
-writer = pd.ExcelWriter('RoboReq_Pairwise_SemSim.xlsx', engine='xlsxwriter')
+# ############################### outputs to Excel for QFD#########################
+writer = pd.ExcelWriter('Pairwise_SemSim.xlsx', engine='xlsxwriter')
 df_pairwise_semsim.to_excel(writer, 'Pairwise Semantic Similarity')
 
 writer.save()
