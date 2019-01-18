@@ -28,7 +28,9 @@ Note: to install these libraries, simply open cmd.exe, change your working direc
 
 bottle
 
-nltk
+Stanford corenlp
+
+pycorenlp
 
 openpyxl
 
