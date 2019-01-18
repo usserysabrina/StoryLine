@@ -69,6 +69,6 @@ If you have other questions about StoryLine, please contact Sabrina Ussery via e
 # References
 Lucassen, G., Dalpiaz, F., van der Werf, J. M. E., & Brinkkemper, S. (2015, August). Forging high-quality user stories: towards a discipline for agile requirements. In Requirements Engineering Conference (RE), 2015 IEEE 23rd International (pp. 126-135). IEEE.
 
-NLTK: https://www.nltk.org/
+Stanford CoreNLP: https://stanfordnlp.github.io/CoreNLP/download.html
 
 spaCy: https://spacy.io/
