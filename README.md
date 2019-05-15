@@ -21,14 +21,14 @@ The successful execution of StoryLine depends on the following:
 # Environments
 Python v3.7.3
 
-Java v9.0.4
+Java v8
 
 # Python Libraries:
 Note: to install these libraries, simply open cmd.exe, change your working directory to the same folder where you have Python and Java installed, and type "pip install" + library name. For example, for nltk, type "pip install nltk".
 
 bottle
 
-stanford-corenlp
+stanford-corenlp 
 
 pycorenlp
 
@@ -57,9 +57,8 @@ num2words
 nltk
 
 JAVA program SimpleNLG Installation Instructions - https://github.com/simplenlg/simplenlg
-For information on how to use SimpleNLG, please see the tutorial.
-
 Spacy Installation Instructions - https://spacy.io/usage/models
+Stanford NLP Installation Instructions - https://stanfordnlp.github.io/CoreNLP/
 
 To run StoryLine, verify that the following files are within your working directory:
 1.StoryLine.py
