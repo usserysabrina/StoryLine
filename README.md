@@ -19,56 +19,41 @@ The current release of StoryLine is V1.0 (API). The "official" version of StoryL
 The successful execution of StoryLine depends on the following:
 
 # Environments
-Python v3.5.0
-
+Python v3.7.3
 Java v9.0.4
 
 # Python Libraries:
 Note: to install these libraries, simply open cmd.exe, change your working directory to the same folder where you have Python and Java installed, and type "pip install" + library name. For example, for nltk, type "pip install nltk".
 
 bottle
-
-Stanford corenlp
-
+stanford-corenlp
 pycorenlp
-
 openpyxl
-
 pandas
-
 numpy 
-
-re
-
+re2
 itertools
-
 xlutils
-
 xlrd
-
 xlwt
-
 collections 
-
 spacy
-
 autocorrect 
-
 num2words 
+nltk
 
 JAVA program SimpleNLG Installation Instructions - https://github.com/simplenlg/simplenlg
-
 For information on how to use SimpleNLG, please see the tutorial.
+
+To run StoryLine, verify that the following files are within your working directory:
+1.StoryLine.py
+2.SimpleNLG.java
+3.Pairwise_SemSim.py
+4.Build_QFD.py
+5.Requirements file (such as Requirements_Input.xlsx)
 
 If you wish to cite StoryLine in an academic publication, please cite the following paper(s):
 1. TBD
 2. TBD
 
 If you have other questions about StoryLine, please contact Sabrina Ussery via email: usserysabrina@gmail.com.
-
-# References
-Lucassen, G., Dalpiaz, F., van der Werf, J. M. E., & Brinkkemper, S. (2015, August). Forging high-quality user stories: towards a discipline for agile requirements. In Requirements Engineering Conference (RE), 2015 IEEE 23rd International (pp. 126-135). IEEE.
-
-Stanford CoreNLP: https://stanfordnlp.github.io/CoreNLP/download.html
-
-spaCy: https://spacy.io/
