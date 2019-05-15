@@ -48,8 +48,6 @@ xlrd
 
 xlwt
 
-collections 
-
 spacy
 
 autocorrect 
@@ -60,6 +58,8 @@ nltk
 
 JAVA program SimpleNLG Installation Instructions - https://github.com/simplenlg/simplenlg
 For information on how to use SimpleNLG, please see the tutorial.
+
+Spacy Installation Instructions - https://spacy.io/usage/models
 
 To run StoryLine, verify that the following files are within your working directory:
 1.StoryLine.py
