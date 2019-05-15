@@ -20,26 +20,42 @@ The successful execution of StoryLine depends on the following:
 
 # Environments
 Python v3.7.3
+
 Java v9.0.4
 
 # Python Libraries:
 Note: to install these libraries, simply open cmd.exe, change your working directory to the same folder where you have Python and Java installed, and type "pip install" + library name. For example, for nltk, type "pip install nltk".
 
 bottle
+
 stanford-corenlp
+
 pycorenlp
+
 openpyxl
+
 pandas
+
 numpy 
+
 re2
+
 itertools
+
 xlutils
+
 xlrd
+
 xlwt
+
 collections 
+
 spacy
+
 autocorrect 
+
 num2words 
+
 nltk
 
 JAVA program SimpleNLG Installation Instructions - https://github.com/simplenlg/simplenlg
