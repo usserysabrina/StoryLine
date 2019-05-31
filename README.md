@@ -74,9 +74,13 @@ The name of your xlsx based requirements file must follow the schema of the prov
 3. Execute StoryLine by using the following commands:
 
 python StoryLine.py
+
 python Pairwise_SemSim.py (optional)
+
 javac SimpleNLG.java
+
 java SimpleNLG
+
 
 
 If you have any questions, you can contact me at: usserysabrina@gmail.com.
