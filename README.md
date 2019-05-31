@@ -64,8 +64,11 @@ Stanford NLP Installation Instructions - https://stanfordnlp.github.io/CoreNLP/
 
 To run StoryLine, verify that the following files are within your working directory:
 1.StoryLine.py
+
 2.SimpleNLG.java
-3.Pairwise_SemSim.py
+
+3.Pairwise_SemSim.py (optional)
+
 4.Requirements file (such as Requirements_Input.xlsx)
 
 The name of your xlsx based requirements file must follow the schema of the provided Requirements_Input.xlsx. You can change the input filename within StoryLine.py as shown below in the provided "change_filename.jpg". Version 1.0 of StoryLine is executable from the command line only, where each component of the tool should be ran in the following order using the provided commands. A sequence diagram, including all file exchanges used during the tool's execution, are also provided for context.
