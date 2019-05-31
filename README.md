@@ -63,6 +63,7 @@ Stanford NLP Installation Instructions - https://stanfordnlp.github.io/CoreNLP/
 # Execution Instructions (v1.0)
 
 To run StoryLine, verify that the following files are within your working directory:
+
 1.StoryLine.py
 
 2.SimpleNLG.java
