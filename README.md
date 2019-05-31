@@ -60,12 +60,28 @@ JAVA program SimpleNLG Installation Instructions - https://github.com/simplenlg/
 Spacy Installation Instructions - https://spacy.io/usage/models
 Stanford NLP Installation Instructions - https://stanfordnlp.github.io/CoreNLP/
 
+# Execution Instructions (v1.0)
+
 To run StoryLine, verify that the following files are within your working directory:
 1.StoryLine.py
 2.SimpleNLG.java
 3.Pairwise_SemSim.py
-4.Build_QFD.py
-5.Requirements file (such as Requirements_Input.xlsx)
+4.Requirements file (such as Requirements_Input.xlsx)
+
+The name of your xlsx based requirements file must follow the schema of the provided Requirements_Input.xlsx. You can change the input filename within StoryLine.py as shown below in the provided "change_filename.jpg". Version 1.0 of StoryLine is executable from the command line only, where each component of the tool should be ran in the following order using the provided commands. A sequence diagram, including all file exchanges used during the tool's execution, are also provided for context.
+1. Open terminal or run.cmd
+2. Change your current directory to your working directory where Python is installed and all of the above files are saved.
+3. Execute StoryLine by using the following commands:
+
+python StoryLine.py
+python Pairwise_SemSim.py (optional)
+javac SimpleNLG.java
+java SimpleNLG
+
+
+If you have any questions, you can contact me at: usserysabrina@gmail.com.
+
+# Citations
 
 If you wish to cite StoryLine in an academic publication, please cite the following paper(s):
 1. TBD
